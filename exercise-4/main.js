@@ -15,6 +15,7 @@ var change_colors = function() {
 
     let text = document.getElementById("dummy-text");
 
+    text.style.borderWidth     = bd_w;
     text.style.borderColor     = rgb(bd_r, bd_g, bd_b);
     text.style.backgroundColor = rgb(bg_r, bg_g, bg_b);
 };
