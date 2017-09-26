@@ -1,0 +1,46 @@
+body {
+    background: #CED3DC;
+    font-family: arial;
+    padding-top: 75px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#accent-bar {
+    background: #A31621;
+    padding: 10px 0 10px 0;
+}
+
+p {
+    font-size: 12pt;
+}
+
+#profile {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 150px;
+    padding-left: 150px;
+    background: #FFF;
+    color: #4C4C4C;
+}
+
+#profile h1 {
+    color: #85C7F2;
+}
+
+#profile-pic {
+    float: right;
+    width: 186;
+    height: 240;
+    background-image: url("img/profile-pic.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#profile-pic:hover {
+    float: right;
+    background-image: url("img/alt-pic.jpg");
+    width: 186;
+    height: 240;
+    background-size: 100% 100%;
+}
